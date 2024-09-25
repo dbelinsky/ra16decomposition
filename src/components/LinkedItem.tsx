@@ -9,10 +9,9 @@ interface LinkedItemProps {
   icon?: string;
   text: string;
   link: string;
-  span: string;
 }
 
-const LinkedItem: React.FC<LinkedItemProps> = ({ icon, text, span, link }) => {
+const LinkedItem: React.FC<LinkedItemProps> = ({ icon, text, link }) => {
   return (
     <div className='linked-item'>
       <span>{icon}</span>

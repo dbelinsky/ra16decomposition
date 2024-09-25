@@ -15,7 +15,6 @@ const AddsList: React.FC = () => {
       {addsData.map((adds, index) => (
         <div key={index} className='adds-item'>
           {adds.img && <img src={adds.img.src} alt={adds.img.alt} />}
-          {adds.icon && <span className='adds-icon'>{adds.icon}</span>}
           <a className='adds-link' href={adds.link}>
             {adds.text}
           </a>

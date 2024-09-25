@@ -1,5 +1,4 @@
 import React from 'react';
-import LinkedItem from './LinkedItem';
 import './Components.css'
 
 /**
